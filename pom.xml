@@ -20,9 +20,13 @@
     </dependency>
   </dependencies>
   <distributionManagement>
+    <snapshotRepository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/kavicastelo/maven-template</url>
+    </snapshotRepository>
     <repository>
       <id>github</id>
-      <url>https://maven.pkg.github.com/kavicastelo/maven-template.git</url>
+      <url>https://maven.pkg.github.com/kavicastelo/maven-template</url>
     </repository>
   </distributionManagement>
 </project>
